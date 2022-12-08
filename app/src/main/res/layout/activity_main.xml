@@ -7,8 +7,17 @@
 
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Hey Hi Guys"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="@+id/fragmentContainerView">
 
-        <androidx.fragment.app.FragmentContainerView
+    </TextView>
+
+
+    <androidx.fragment.app.FragmentContainerView
 
         android:id="@+id/fragmentContainerView"
         android:name="androidx.navigation.fragment.NavHostFragment"

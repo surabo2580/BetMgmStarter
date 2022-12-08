@@ -43,7 +43,4 @@ fun LobbyScreenView(){
 
 }
 
-@Composable
-fun AppScreen(text: String) = Surface(modifier = Modifier.fillMaxSize()) {
-    Text(text = text, fontSize = 32.sp)
-}
+
